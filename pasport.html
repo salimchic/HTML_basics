@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pasport</title>
+</head>
+
+<body>
+    <h1>РОССИЙСКАЯ ФЕДЕРАЦИЯ</h1>
+    <div id="page">
+        <p>Паспорт выдан: <span id="issued">МВД по Республике Татарстан</span></p>
+        <p>Фамилия: <span id="lastname">Шамсина</span></p>
+        <p>Имя: <span id="name">Алина</span></p>
+        <p>Отчество: <span id="surname">Ленаровна</span></p>
+        <p>Дата рождения: <span id="date">23.03.2004</span></p>
+    </div>
+
+    <script src="./papka/function.js">
+        var issued = document.getElementById('issued').innerText;
+        var lastname = document.getElementById('lastname').innerText;
+        var name = document.getElementById('name').innerText;
+        var surname = document.getElementById('surname').innerText;
+        var date = document.detElementById('date').innerText;
+
+        console.log('Паспорт выдан' + issued);
+        console.log('Фамилия' + lastname);
+        console.log('Имя' + name);
+        console.log('Отчество' + surname);
+        console.log('Дата рождения' + date);
+    </script>
+</body>
+</html>
