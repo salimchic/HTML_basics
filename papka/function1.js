@@ -2,7 +2,7 @@ const node_for_click_lastname = document.getElementById("for_click_lastname")
 
 function find_edit_lastname() {
 
-    const item = document.getElementsByTagName('div')[3]
+    const item = document.getElementsByTagName('p')[1]
     console.log(item.innerText)
     item.innerText = 'Фамилия: Шамсина'
 
@@ -16,7 +16,7 @@ const node_for_click_name = document.getElementById("for_click_name")
 
 function find_edit_name() {
 
-    document.getElementsByTagName('div')[4].innerHTML = 'Имя: Алина'
+    document.getElementsByTagName('p')[2].innerHTML = 'Имя: Алина'
 
 }
 
@@ -28,7 +28,7 @@ const node_for_click_surname = document.getElementById("for_click_surname")
 
 function find_edit_surname() {
 
-    document.getElementsByTagName('div')[5].innerHTML = 'Отчество: Ленаровна'
+    document.getElementsByTagName('p')[3].innerHTML = 'Отчество: Ленаровна'
 
 }
 
@@ -40,7 +40,7 @@ const node_for_click_date = document.getElementById("for_click_date")
 
 function find_edit_date() {
 
-    document.getElementsByTagName('div')[7].innerHTML = 'Дата: 23.03.2004'
+    document.getElementsByTagName('p')[4].innerHTML = 'Дата: 23.03.2004'
 
 }
 
