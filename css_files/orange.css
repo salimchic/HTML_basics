@@ -1,0 +1,25 @@
+figure {
+    background-color: rgb(212, 165, 35);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 300px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    border: 5px;
+    text-shadow: 2px 2px 5px black;
+    font-size: 42px;
+    font-family: "Verdana";
+}
+
+p {
+    text-align: left;
+    padding-left: 230px;
+    color: black;
+    flex-wrap: nowrap;
+    white-space: nowrap
+}
