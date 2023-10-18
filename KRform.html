@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>формы</title>
+</head>
+<body>
+<form id = "form" action="#" method="post" target="_blank">
+    <h2>Выбираем лучшие книги</h2>
+
+    <fieldset>
+      <legend>Контактная информация</legend>
+      <ul>
+        <li>
+          Имя:
+          <input type="text" name="name" id="name">
+        </li><br>
+        <li>
+            Телефон:
+            <input type="tel" name="phone" id="number" maxlength="11">
+        </li><br>
+        <li>
+            E-mail:
+            <input type="email" name="mail" id="email">
+        </li><br>
+      </ul>
+    </fieldset>
+
+    <fieldset>
+    <legend>Персональная информация</legend>
+    <ul>
+        <li>
+            Возраст:
+            <input type="number" name="age" id="age" min="0" max="125">
+        </li><br>
+        <li>Какая Ваша любимая книга из топ-10?
+            <select name="favorite">
+                <option value="1">451 градус по Фаренгейту</option>
+                <option value="2">1984</option>
+                <option value="3">Мастер и Маргарита</option>
+                <option value="4">Шантарам</option>
+                <option value="5">Три товарища</option>
+                <option value="6">Цветы для Элджернона</option>
+                <option value="7">Портрет Дориана Грея</option>
+                <option value="8">Маленький принц</option>
+                <option value="9">Над пропастью во ржи</option>
+                <option value="10">Вино из одуванчиков</option>
+            </select></li><br>
+        <li>
+            Какие книги вы хотите предложить ещё?:
+            <textarea name="comment" id="comment"></textarea>
+        </li>
+    </ul>
+    </fieldset>
+
+    <fieldset>
+      <legend>Оценка произведения</legend>
+      Что Вам особенно понравилось?<br>
+        <input type="checkbox" name="goal1" checked>Стиль повествования<br>
+        <input type="checkbox" name="goal2">Сюжет<br>
+        <input type="checkbox" name="goal3">Сравнения и метафоры<br><br>
+
+     Посоветую купить друзьям
+        <input type="radio" name="yes" checked>Да<br>
+        <input type="radio" name="no">Нет
+        
+    </fieldset>
+
+    <button type="submit">Отправить</button>
+    
+  </form>
+</body>
+</html>

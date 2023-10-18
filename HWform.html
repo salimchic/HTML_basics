@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>формы</title>
+    <!-- <script>
+        node = document.getElementById("itog")
+        function itog(){
+            var name = document.getElementById("name");
+            var time = document.getElementById("time");
+            var cost = document.getElementById("cost");
+            itog.innerHTML=name
+        }
+        node.addEventListener("click", itog)
+    </script> -->
+</head>
+<body>
+<form id = "form" action="#" method="post" target="_blank">
+    <h2>Анкета посетителя ресторана</h2>
+
+    <fieldset>
+      <legend>Контактная информация</legend>
+      <ul>
+        <li>
+          Имя:
+          <input type="text" name="name" id="name">
+        </li><br>
+        <li>
+            Телефон:
+            <input type="tel" name="phone" id="number" maxlength="11">
+        </li><br>
+        <li>
+            E-mail:
+            <input type="email" name="mail" id="email">
+        </li><br>
+        <li>
+            Время посещения:
+            <input type="time" name="time" id="time">
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset>
+    <legend>Персональная информация</legend>
+    <ul>
+        <li>
+            Возраст:
+            <input type="number" name="age" id="age" min="0" max="125">
+        </li><br>
+        <li>Какая Ваша любимая кухня?
+            <select name="favorite">
+                <option value="1">Итальянская</option>
+                <option value="2">Русская</option>
+                <option value="3">Французская</option>
+                <option value="4">Японская</option>
+            </select></li><br>
+        <li>
+            Какие блюда Вы бы хотели увидеть в меню?:
+            <textarea name="comment" id="comment"></textarea>
+        </li>
+    </ul>
+    </fieldset>
+
+    <fieldset>
+      <legend>Оценка нашего заведения</legend>
+        <input type="checkbox" name="goal1" checked>Посоветовали друзья<br>
+        <input type="checkbox" name="goal2">Увидел рекламу<br>
+        <input type="checkbox" name="goal3">Недалеко от работы/учёбы<br><br>
+
+        
+        <input type="radio" name="yes" checked>Да<br>
+        <input type="radio" name="no">Нет
+        
+    </fieldset>
+    <fieldset>
+      <legend>Какую сумму вы потратили?</legend>
+        <input type="radio" name="100" id="cost">Меньше 100 у.е.<br>
+        <input type="radio" name="101" id="cost">Больше 100 у.е.
+    </fieldset><br>
+
+    <button type="submit">Отправить</button>
+    
+  </form>
+</body>
+</html>

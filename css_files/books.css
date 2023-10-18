@@ -1,0 +1,55 @@
+figure {
+    background-color: rgb(212, 165, 35);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 300px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    border: 5px;
+    text-shadow: 2px 2px 5px black;
+    font-size: 42px;
+    font-family: "Verdana";
+}
+
+h1,
+h2 {
+    font-family: 'Verdana';
+    color: rgb(95, 15, 126);
+    text-shadow: 2px 2px 5px rgb(129, 67, 172);
+}
+
+p {
+    text-align: left;
+    padding-left: 230px;
+    color: black;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+table,
+td,
+th {
+    border: 1px solid rgb(189, 140, 7);
+    background-color: rgb(222, 224, 115);
+    border-collapse: collapse;
+    font-family: 'Verdana';
+    border-collapse: separate;
+    font-weight: normal;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    border: 1px solid rgb(189, 140, 7);
+    background-color: rgb(222, 224, 115);
+}
+
+tfoot {
+    border: 1px solid rgb(189, 140, 7);
+    background-color: rgb(222, 224, 115);
+}
