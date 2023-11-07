@@ -23,3 +23,7 @@ p {
     flex-wrap: nowrap;
     white-space: nowrap
 }
+
+a:active {
+    color: red;
+}
