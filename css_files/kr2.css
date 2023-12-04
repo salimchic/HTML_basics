@@ -1,0 +1,8 @@
+div#carouselExampleDark {
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+    height: 40vh;
+    width: 70vh;
+    align-self: center;
+}

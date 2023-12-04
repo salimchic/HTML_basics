@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "title": "Товар 1",
+        "vendor_code": "111",
+        "description": "451 градус по Фаренгейту",
+        "price": 451,
+        "img": "./my_images/forFR/451.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Товар 2",
+        "vendor_code": "222",
+        "description": "1984",
+        "price": 234,
+        "img": "./my_images/forFR/1984.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Товар 3",
+        "vendor_code": "333",
+        "description": "Вино из одуванчиков",
+        "price": 342,
+        "img": "./my_images/forFR/вино.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Товар 4",
+        "vendor_code": "444e",
+        "description": "Мастер и Маргарита",
+        "price": 444,
+        "img": "./my_images/forFR/мастер.jpg"
+    },
+    {
+        "id": "5",
+        "title": "Товар 5",
+        "vendor_code": "4445e",
+        "description": "Портрет Дориана Грея",
+        "price": 491,
+        "img": "./my_images/forFR/портрет(1).jpeg"
+    },
+    {
+        "id": "6",
+        "title": "Товар 6",
+        "vendor_code": "4446e",
+        "description": "Маленький принц",
+        "price": 258,
+        "img": "./my_images/forFR/принц.jpg"
+    },
+    {
+        "id": "7",
+        "title": "Товар 7",
+        "vendor_code": "4447e",
+        "description": "Над пропастью во ржи",
+        "price": 607,
+        "img": "./my_images/forFR/пропасть.jpg"
+    },
+    {
+        "id": "8",
+        "title": "Товар 8",
+        "vendor_code": "4448e",
+        "description": "Три товарища",
+        "price": 356,
+        "img": "./my_images/forFR/три.jpg"
+    },
+    {
+        "id": "9",
+        "title": "Товар 9",
+        "vendor_code": "444e",
+        "description": "Цветы для Элджернона",
+        "price": 400,
+        "img": "./my_images/forFR/цветы.jpg"
+    },
+    {
+        "id": "10",
+        "title": "Товар 10",
+        "vendor_code": "44410e",
+        "description": "Шантарам",
+        "price": 543,
+        "img": "./my_images/forFR/шантарам.jpg"
+    }
+]
