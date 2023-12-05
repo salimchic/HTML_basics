@@ -1,2 +1,2 @@
 ## HTML_basics
-## https://salimchic.github.io/HTML_basics/КР1.html 
+## https://salimchic.github.io/HTML_basics/KR2.html
