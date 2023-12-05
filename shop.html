@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <title>Магазин</title>
     <meta charset="utf-8">
@@ -10,59 +9,239 @@
           integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" rel="stylesheet">
     <link rel="stylesheet" href="./css_files/kr2.css">
 </head>
-<body>
 
+<body>
 <div class="container">
     <header class="card" style="height: 3.rem; background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201010/pngtree-delicate-cute-watercolor-background-image_407971.jpg);">
         <div class="card-body bg-color">
             <h5 class="card-title text-center">Добро пожаловать<br><em>Книжная полка</em></h5>
         </div>
     </header>
+    
     <div class="card">
         <div class="card-body">
             <ul class="nav nav-tabs">
-                <li class="nav-item"><a class="nav-link " href="KR2.html">Начальная страница</a>
-                </li>
-                <li class="nav-item"><a class="nav-link active" href="./shop.html">Магазин</a>
-                </li>
+                <li class="nav-item"><a class="nav-link " href="KR2.html">Начальная страница</a></li>
+                <li class="nav-item"><a class="nav-link active" href="./shop.html">Магазин</a></li>
             </ul>
         </div>
+    </div>
     
-   <!-- <div class="card-body">
-        <h5 class='card-title text-center'>Онлайн магазин книг</h5>
-        <form action="https://www.yandex.ru/search?" method="get" id="UserEnter" name="UserEnter" target="_blank">
-            <input name="q" type="hidden" value="search">
-            <ul class="d-flex flex-row flex-wrap justify-content-around bg-light" id="node_for_insert">
-            
-            </ul>
-            <input class="btn btn-primary" type="Submit" value="В корзину">
-        </form>
-    </div>-->
-    <!--окончание уникального содержания страницы-->
-       <!--начало уникального содержания страницы-->
+    <div class="card" >
+    <h5 class='card-title text-center'><br>Магазин<br><br></h5>
+    <form class="row g-3 needs-validation" action="https://www.yandex.com/search?" id="UserEnter" name="UserEnter" target="_blank" novalidate >
+        <div class="card-group">
+            <div class="card" style="width: 18rem;">
+                <img src="./my_images/forKR/451.jpg" class="card-img-top" alt="1">
+                <div class="card-body">
+                <h5 class="card-title">451 по Фаренгейту</h5>
+                <p class="card-text">457$</p>
+                <div class="form-check">
+                    <input name="1" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    В корзину
+                    </label>
+                </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./my_images/forKR/1984.jpg" class="card-img-top" alt="2">
+                <div class="card-body">
+                <h5 class="card-title">1984</h5>
+                <p class="card-text">257$</p>
+                <div class="form-check">
+                    <input name="2" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    В корзину
+                    </label>
+                </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./my_images/forKR/три.jpg" class="card-img-top" alt="3">
+                <div class="card-body">
+                <h5 class="card-title">Три товарища</h5>
+                <p class="card-text">404$</p>
+                <div class="form-check">
+                    <input name="3" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    В корзину
+                    </label>
+                </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./my_images/forKR/шантарам.jpg" class="card-img-top" alt="4">
+                <div class="card-body">
+                <h5 class="card-title">Шантарам</h5>
+                <p class="card-text">515$</p>
+                <div class="form-check">
+                    <input name="4" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    В корзину
+                    </label>
+                </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./my_images/forKR/мастер.jpg" class="card-img-top" alt="5">
+                <div class="card-body">
+                <h5 class="card-title">Мастер и Маргарита</h5>
+                <p class="card-text">332$</p>
+                <div class="form-check">
+                    <input name="5" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    В корзину
+                    </label>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card" style="width: 18rem;">
+                <img src="./my_images/forKR/цветы.jpg" class="card-img-top" alt="6">
+                <div class="card-body">
+                <h5 class="card-title">Цветы для Элджернона</h5>
+                <p class="card-text">215$</p>
+                <div class="form-check">
+                    <input name="6" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    В корзину
+                    </label>
+                </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./my_images/forKR/портрет(1).jpeg" class="card-img-top" alt="7">
+                <div class="card-body">
+                <h5 class="card-title">Портрет Дориана Грея</h5>
+                <p class="card-text">344$</p>
+                <div class="form-check">
+                    <input name="7" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    В корзину
+                    </label>
+                </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./my_images/forKR/принц.jpg" class="card-img-top" alt="8">
+                <div class="card-body">
+                <h5 class="card-title">Маленький принц</h5>
+                <p class="card-text">501$</p>
+                <div class="form-check">
+                    <input name="8" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    В корзину
+                    </label>
+                </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./my_images/forKR/пропасть.jpg" class="card-img-top" alt="9">
+                <div class="card-body">
+                <h5 class="card-title">Над пропастью во ржи</h5>
+                <p class="card-text">159$</p>
+                <div class="form-check">
+                    <input name="9" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    В корзину
+                    </label>
+                </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./my_images/forKR/вино.jpg" class="card-img-top" alt="10">
+                <div class="card-body">
+                <h5 class="card-title">Вино из одуванчиков</h5>
+                <p class="card-text">299$</p>
+                <div class="form-check">
+                    <input name="10" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    В корзину
+                    </label>
+                </div>
+                </div>
+            </div>
+        </div><br><br>
+    
+    
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Имя</label>
+          <input name="name" type="text" class="form-control" id="validationCustom01" value="Иван" required>
+          <div class="valid-feedback">
+            Все хорошо!
+          </div>
+        </div><br>
+
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Фамилия</label>
+          <input name="surname" type="text" class="form-control" id="validationCustom02" value="Петров" required>
+          <div class="valid-feedback">
+            Все хорошо!
+          </div>
+        </div><br>
+
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Имя пользователя</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input name="person" type="text" class="form-control" id="validationCustomUsername" value="IVAN" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Пожалуйста, выберите имя пользователя.
+            </div>
+          </div>
+        </div><br>
+
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Город</label>
+          <input name="city" type="text" class="form-control" id="validationCustom03" value="Нижний Новгород" required>
+          <div class="invalid-feedback">
+            Укажите действующий город.
+          </div>
+        </div><br>
+
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Индекс</label>
+          <input name="index" type="text" class="form-control" id="validationCustom05" value="0000" required>
+          <div class="invalid-feedback">
+            Пожалуйста, предоставьте действующий почтовый индекс.
+          </div>
+        </div><br>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input name="ok" class="form-check-input" type="checkbox" checked="checked" id="invalidCheck" value="yes" required>
+            <label class="form-check-label" for="invalidCheck">
+              Примите условия и соглашения
+            </label>
+            <div class="invalid-feedback">
+              Вы должны принять перед отправкой.
+            </div>
+          </div>
+        </div><br>
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">заказать!</button>
+        </div><br>
+      </form>
+
     <div class="card">
-    <div class="card-body">
-        <h5 class='card-title text-center'>Магазин</h5>
-            <input type="radio" id="price" name="sort"  onchange="sort()"> price  </input>
-            <input type="radio" id="title" name="sort"  checked onchange="sort()" > title </input>
-        <form action="https://www.yandex.com/search?" id="UserEnter" name="UserEnter" target="_blank">
-            <input name="q" type="hidden" value="search">
-            <ul class="d-flex flex-row justify-content-around flex-wrap bg-light" id="node_for_insert">
-
-            <!--начало генерируемого фрагмента кода -->
-            </ul>
-            <input class="btn btn-primary" type="Submit" value="В корзину">
-         </form>
+        <div class="card-body">
+            Footer
+        </div>
     </div>
-    </div>  
-    <!--окончание уникального содержания страницы-->
-</div>
-<div class="card">
-    <div class="card-body">
-        Footer
-    </div>
-</div>
 
+</div>
 </body>
 <script crossorigin="anonymous"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
